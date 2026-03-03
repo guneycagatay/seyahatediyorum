@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Scoped resets for Admin Panel */
+.admin-container {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.admin-container h1,
+.admin-container h2,
+.admin-container h3,
+.admin-container h4,
+.admin-container h5,
+.admin-container h6 {
+    margin: 0;
+    font-weight: inherit;
+}
+
+.admin-container p {
+    margin: 0;
+}
+
+.admin-container button,
+.admin-container input {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+.admin-container a {
+    color: inherit;
+    text-decoration: inherit;
+}
